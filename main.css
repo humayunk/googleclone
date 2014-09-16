@@ -1,0 +1,177 @@
+* Eric Myer's CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Google Clone CSS */
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+nav {
+	width:100%;
+}
+
+ul li {
+	display:inline;
+}
+
+#nav {
+	text-align: right;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+#nav ul li {
+	display:inline;
+	padding:10px;
+}
+
+#nav ul li img{
+	width:20px;
+	height:20px;
+	padding-top: 5px;
+	margin-top: 5px;
+}
+
+.navbtn {
+	background: #4285F4;
+	background: linear-gradient(#4387FC #4285F4);
+	height:100px;
+	width:100px;
+	border-radius: 2px;
+	color: #fff;
+}
+
+/* Logo and Search Bar */
+
+#logo {
+	margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#search {
+	margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius:0;
+}
+
+.bar {
+	width:300px;
+	height:30px;
+}
+
+.submit {
+	background: url(images/microphone.png) no-repeat top left;
+	border: none;
+	height: 30px;
+	vertical-align: middle;
+	width:27px;
+}
+
+#buttons {
+	display: inline;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
+
+.searchbtns {
+	width:200px;
+	height:100px;
+	padding: 10px;
+	margin: 3px;
+	background: #F1F1F1;
+	color:#444444;
+	font-size: 12px;
+	border-radius: 2px;
+	border: solid 1px #444444;
+}
+
+/* Footer Area */
+
+.footer {
+   position:absolute;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#F2F2F2;
+   font-size: 12px;
+  }
+
+.left {
+	text-align: left;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+.left ul li {
+	padding-right: 10px;
+}
+
+.right{
+	text-align: right;
+	padding-right: 10px;
+}
+
+.right ul li {
+	padding-right: 10px;
+}
+
+
+
